@@ -1,0 +1,20 @@
+#topNav{
+    background-color: black;
+    height: 40px;
+}
+#orange{
+    color: orange;
+}
+#red{
+    color: red;
+}
+#home{
+    float: left;
+    font-size: 24px;
+}
+#dropDownButton{
+    color:white;
+    float: right;
+    font-size: 24px;
+    padding-right: 20px;
+}
