@@ -5,12 +5,12 @@
 #orange{
     color: orange;
 }
-#red{
+.red{
     color: red;
 }
 #home{
     float: left;
-    font-size: 24px;
+    width: 180px;
 }
 #dropDownButton{
     color:white;
@@ -21,23 +21,46 @@
 
 #content{
     margin-top:50px ;
-    border: solid black;
     width: 100%;
     padding: 0;
 }
 #promo{
-    background-color:tomato ;
-    border: solid black;
     margin:0;
     max-width: 100%;
 }
 #loyalty{
-    background-color: lightgreen;
-    border: solid black;
     margin:0;
+    max-width: 100%;
 }
 #locations{
-    background-color: plum;
-    border: solid black;
     margin:0;
+    max-width: 100%;
+}
+#about{
+    max-width: 700px;
+    margin: 0 auto;
+}
+#hoax{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(216, 0, 0);
+}
+#description{
+    font-size: 16px;
+    margin: 10px;
+}
+#links{
+
+}
+.infoLink{
+    width: 200px;
+    margin: 0 auto;
+    height: 70px;
+}
+.linkText{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
 }
