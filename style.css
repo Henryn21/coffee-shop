@@ -83,3 +83,31 @@ a:hover, a:focus {
     width: 80px;
     text-align: right;
 }
+#socialMedia{
+    background-color: orange;
+}
+#postsBox{
+    border: solid black;
+}
+.post{
+    margin: 20px;
+    background-color: white; max-width: 380px;
+}
+.socialMediaImage{
+    max-width:360px ;
+    margin: auto;
+    padding: 16px;
+    display: block;
+}
+.smHeader{
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+}
+.imgSource{
+    text-align: center;
+    font-size: 12px;
+}
+.caption{
+    text-align: center;
+}
