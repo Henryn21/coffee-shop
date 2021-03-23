@@ -1,6 +1,7 @@
 #topNav{
     background-color: rgba(0, 0, 0, 0.5);
     height: 40px;
+    z-index: 1;
 }
 #blackBar{
     height: 50px;
@@ -29,17 +30,31 @@
     font-size: 24px;
     padding-right: 20px;
 }
-/* #dropDown{
-    z-index: 2;
-    position: absolute;
+#dropDown{
+    z-index: 1;
+    position:fixed;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     width: 50%;
-    display: none;
-} */
-#dropDown ul{
-    list-style: none;
+    display:none;
+    user-select:none;
+}
+.fa-times{
+    color:white;
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+}
+#dropDown p{
     color:white ;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding-left:0 ;
+}
+#dropDown p:hover{
+    color:rgb(216, 0, 0);
 }
 #content{
     width: 100%;
@@ -189,7 +204,7 @@ footer img{
 }
 #appLinks{
     margin: auto;
-    width: 500px;
+    width: 400px;
     display: block;
 }
 #socialsLine{
