@@ -1,4 +1,4 @@
-// let dropDown=document.querySelector("#dropDown");
+//function:if menu open{set display to none} else set to block
 $(document).ready(function(){
     $("#dropDownButton").click(function(){
         openMenu()
@@ -8,10 +8,20 @@ $(document).ready(function(){
     });
 });
 function openMenu(){
-    $("#dropDown").css("display", "block");
+    $("#dropDown").css("right", "0");
 }
 function closeMenu(){
-    $("#dropDown").css("display", "none");
+    $("#dropDown").css("right", "-240px");
 }
-
-//function:if menu open{set display to none} else set to block
+//when scrolled past black bar, resize logo
+window.onscroll= function(){scroll()};
+function scroll(){
+    if(document.body.scrollTop>50 || document.documentElement.scrollTop>50){
+        document.querySelector("#home").style.width="170px";
+        document.querySelector("#home").style.paddingTop= "8px";
+    }
+    else{
+        document.querySelector("#home").style.width="200px";
+        document.querySelector("#home").style.paddingTop= "4px";
+    }
+}
