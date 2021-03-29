@@ -21,7 +21,7 @@
     transition: .2s;
 }
 
-@media(min-width:990px){
+@media(min-width:1000px){
     #home{
         width: 300px;
     }
@@ -43,7 +43,7 @@
     /* display:none; */
     right: -240px;
     user-select:none;
-    transition: .8s;
+    transition: .5s;
 }
 .fa-times{
     color:white;
@@ -61,13 +61,13 @@
 #dropDown p:hover{
     color:rgb(216, 0, 0);
 }
-@media(min-width:990px){
+/* @media(min-width:990px){
     #dropDown{
         transition: .1s;
         right: 0;
         background-color: transparent;
     }
-}
+} */
 #content{
     width: 100%;
     padding: 0;
