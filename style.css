@@ -21,11 +21,6 @@
     transition: .2s;
 }
 
-@media(min-width:1000px){
-    #home{
-        width: 300px;
-    }
-}
 #dropDownButton{
     color:white;
     float: right;
@@ -40,11 +35,11 @@
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     width: 240px;
-    /* display:none; */
     right: -240px;
     user-select:none;
     transition: .5s;
 }
+
 .fa-times{
     color:white;
     font-size: 30px;
@@ -61,13 +56,40 @@
 #dropDown p:hover{
     color:rgb(216, 0, 0);
 }
-/* @media(min-width:990px){
-    #dropDown{
-        transition: .1s;
-        right: 0;
-        background-color: transparent;
+#menu2{
+    float: right;
+    display: none;
+    width: 660px;
+    height: 50px;
+    text-align: center;
+}
+#menu2 p{
+    padding-top: 16px;
+    display: inline-block;
+    color:white ;
+    margin-left: 20px;
+    font-size: 16px;
+}
+#menu2 p:hover{
+    color:rgb(216, 0, 0);
+}
+@media(min-width:1000px){
+    #dropDownButton{
+        display: none;
     }
-} */
+    #dropDown{
+        display: none;
+    }
+    #blackBar{
+        display: none;
+    }
+    #home{
+        width: 300px;
+    }
+    #menu2{
+        display: block;
+    }
+}
 #content{
     width: 100%;
     padding: 0;
