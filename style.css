@@ -1,7 +1,7 @@
 #topNav{
     background-color: rgba(0, 0, 0, 0.5);
     height: 40px;
-    z-index: 1;
+    z-index: 2;
 }
 #blackBar{
     height: 50px;
@@ -94,15 +94,7 @@
     width: 100%;
     padding: 0;
 }
-#promo{
-    margin:0;
-    max-width: 100%;
-}
-#loyalty{
-    margin:0;
-    max-width: 100%;
-}
-#locations{
+.heroImage{
     margin:0;
     max-width: 100%;
 }
