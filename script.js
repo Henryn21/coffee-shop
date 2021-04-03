@@ -6,11 +6,6 @@ $(document).ready(function(){
     $(".fa-times").click(function(){
         closeMenu()
     });
-    $("#body").resize(function(){
-        if(this.style.width){
-
-        }
-    });
 });
 function openMenu(){
     $("#dropDown").css("right", "0");
@@ -31,11 +26,11 @@ window.onscroll= function(){
 function scrollSmall(){
         if(document.body.scrollTop>50 || document.documentElement.scrollTop>50){
             document.querySelector("#home").style.width="170px";
-            document.querySelector("#home").style.paddingTop= "8px";
+            // document.querySelector("#home").style.paddingTop= "8px";
         }
         else{
             document.querySelector("#home").style.width="200px";
-            document.querySelector("#home").style.paddingTop= "4px";
+            // document.querySelector("#home").style.paddingTop= "4px";
         }
 }
 //boolean to keep track of scroll position
@@ -44,12 +39,12 @@ let isBelow;
 function scrollBig(){
     if(document.body.scrollTop>50 || document.documentElement.scrollTop>50){
         document.querySelector("#home").style.width="200px";
-        document.querySelector("#home").style.paddingTop= "4px";
+        // document.querySelector("#home").style.paddingTop= "4px";
         isBelow=true;
     }
     else{
         document.querySelector("#home").style.width="300px";
-        document.querySelector("#home").style.paddingTop= "2px";
+        // document.querySelector("#home").style.paddingTop= "2px";
         isBelow=false;
     }
 
